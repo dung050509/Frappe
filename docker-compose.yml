@@ -1,0 +1,16 @@
+version: '3'
+services:
+  frappe:
+    image: frappe/erpnext-worker:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/home/frappe/frappe-bench
+    environment:
+      - DB_ROOT_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
+      - SITE_NAME=your-site.local
+      - SITE_DB_NAME=your-db
+      - SITE_DB_USER=your-user
+      - SITE_DB_PASSWORD=your-password
+    command: bash -c "bench start"

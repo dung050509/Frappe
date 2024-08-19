@@ -1,0 +1,111 @@
+2024-08-18 18:28:56,475 DEBUG cd my-bench1 && python3 -m venv env
+2024-08-18 18:28:57,728 DEBUG cd my-bench1 && /Users/vutuandung/my-bench1/env/bin/python -m pip install --quiet --upgrade pip
+2024-08-18 18:28:58,447 DEBUG cd my-bench1 && /Users/vutuandung/my-bench1/env/bin/python -m pip install --quiet wheel
+2024-08-18 18:29:00,016 LOG Getting frappe
+2024-08-18 18:29:00,016 DEBUG cd my-bench1/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2024-08-18 18:29:17,789 LOG Installing frappe
+2024-08-18 18:29:17,789 DEBUG cd /Users/vutuandung/my-bench1 && /Users/vutuandung/my-bench1/env/bin/python -m pip install --quiet --upgrade -e /Users/vutuandung/my-bench1/apps/frappe 
+2024-08-18 18:30:20,024 DEBUG cd /Users/vutuandung/my-bench1/apps/frappe && yarn install --check-files
+2024-08-18 18:30:36,179 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-18 18:30:36,180 DEBUG cd my-bench1 && bench build
+2024-08-18 18:30:36,299 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench build
+2024-08-18 18:30:46,550 LOG setting up backups
+2024-08-18 18:30:49,199 LOG backups were set up
+2024-08-18 18:30:49,200 INFO Bench my-bench1 initialized
+2024-08-18 18:31:04,695 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench new-site mysite.local
+2024-08-18 18:32:51,763 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench new-site mysite.local
+2024-08-18 18:33:01,322 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-18 18:33:01,652 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-18 18:33:01,653 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-18 18:33:01,660 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-18 18:33:01,661 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-18 18:33:23,279 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-18 18:33:23,585 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-18 18:33:23,590 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-18 18:33:23,593 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-18 18:33:23,614 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-18 18:34:35,122 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench new-site mysite1.local
+2024-08-18 18:35:30,349 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench new-site mysite1.local
+2024-08-18 18:35:46,581 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench use mysite1.local
+2024-08-18 18:35:51,361 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-18 18:35:51,644 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-18 18:35:51,648 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-18 18:35:51,654 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-18 18:35:51,674 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-18 18:40:17,612 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-18 18:40:17,903 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-18 18:40:17,909 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-18 18:40:17,917 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-18 18:40:17,931 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-18 18:40:36,432 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench new-site mysite2.local
+2024-08-18 18:41:26,627 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-18 18:41:26,904 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-18 18:41:26,911 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-18 18:41:26,911 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-18 18:41:26,920 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-18 18:42:27,550 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench use mysite2.local
+2024-08-18 18:42:29,768 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-18 18:42:30,059 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-18 18:42:30,065 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-18 18:42:30,066 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-18 18:42:30,067 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-18 23:00:44,601 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-18 23:00:44,895 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-18 23:00:44,896 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-18 23:00:44,924 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-18 23:00:44,933 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-19 00:00:00,536 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --verbose --site all backup
+2024-08-19 12:24:55,624 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-19 12:24:55,922 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-19 12:24:55,923 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-19 12:24:55,924 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-19 12:24:55,931 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-19 12:25:43,625 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench find
+2024-08-19 12:26:36,756 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench new-app library_management
+2024-08-19 12:26:36,758 LOG creating new app library_management
+2024-08-19 12:27:47,599 LOG Installing library_management
+2024-08-19 12:27:47,600 DEBUG cd /Users/vutuandung/my-bench1 && /Users/vutuandung/my-bench1/env/bin/python -m pip install --quiet --upgrade -e /Users/vutuandung/my-bench1/apps/library_management 
+2024-08-19 12:27:48,948 DEBUG bench build --app library_management
+2024-08-19 12:27:49,014 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench build --app library_management
+2024-08-19 12:27:50,504 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-08-19 12:29:08,475 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench new-site library.localhost
+2024-08-19 12:30:58,022 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost add-to-hosts
+2024-08-19 12:31:25,118 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench stảt
+2024-08-19 12:31:28,443 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-19 12:31:28,746 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-19 12:31:28,752 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-19 12:31:28,763 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-19 12:31:28,782 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-19 12:32:03,136 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench use library.localhost
+2024-08-19 12:32:05,845 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-19 12:32:06,129 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-19 12:32:06,131 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-19 12:32:06,132 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-19 12:32:06,135 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-19 12:34:16,470 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost install-app library_management
+2024-08-19 12:34:27,965 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost list-apps
+2024-08-19 12:38:21,944 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-19 12:38:22,234 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-19 12:38:22,234 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-19 12:38:22,235 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-19 12:38:22,245 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-19 13:37:42,739 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost mariadb
+2024-08-19 13:38:01,940 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost mariadb
+2024-08-19 13:39:02,712 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost mariadb
+2024-08-19 13:39:10,284 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost mariadb
+2024-08-19 13:40:22,761 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-19 13:40:23,058 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-19 13:40:23,059 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-19 13:40:23,064 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-19 13:40:23,078 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-19 13:42:03,437 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost mariadb
+2024-08-19 13:49:46,171 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench set-config -g developer_mode true
+2024-08-19 13:49:50,315 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench start
+2024-08-19 13:49:50,601 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench serve --port 8000
+2024-08-19 13:49:50,603 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench worker
+2024-08-19 13:49:50,612 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench watch
+2024-08-19 13:49:50,612 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench schedule
+2024-08-19 13:54:31,942 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost mariadb
+2024-08-19 13:54:48,554 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --site library.localhost mariadb
+2024-08-19 18:00:01,502 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --verbose --site all backup
+2024-08-19 21:10:00,131 INFO /Library/Frameworks/Python.framework/Versions/3.12/bin/bench --version
